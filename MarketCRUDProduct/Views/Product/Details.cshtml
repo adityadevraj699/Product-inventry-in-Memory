@@ -1,0 +1,68 @@
+﻿@using MarketCRUDProduct.Models
+@model Product
+
+<div class="container mt-5" style="max-width:700px;">
+
+    <div class="card shadow border-0">
+        <div class="card-header bg-dark text-white text-center">
+            <h4 class="mb-0">Product Details</h4>
+        </div>
+
+        <div class="card-body">
+
+            @if (Model != null)
+            {
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Product ID</div>
+                    <div class="col-md-8">@Model.productId</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Product Name</div>
+                    <div class="col-md-8">@Model.productName</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Category</div>
+                    <div class="col-md-8">
+                        @(Model.category != null
+                                            ? Model.category.CategoryName
+                                            : "N/A")
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Price</div>
+                    <div class="col-md-8">₹ @Model.prodcutPrice</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Quantity</div>
+                    <div class="col-md-8">@Model.productQuantity</div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-4 fw-semibold">Description</div>
+                    <div class="col-md-8 text-muted">
+                        @Model.productDescription
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-action="Index"
+                       class="btn btn-secondary">
+                        Back
+                    </a>
+
+                    <a asp-action="EditProduct"
+                       asp-route-id="@Model.productId"
+                       class="btn btn-warning">
+                        Edit Product
+                    </a>
+                </div>
+            }
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,95 @@
+﻿@model (Product product, List<Category> categories)
+
+<div class="container mt-5" style="max-width:650px;">
+
+    <div class="card shadow border-0">
+        <div class="card-header bg-dark text-white text-center">
+            <h4 class="mb-0">Update Product</h4>
+        </div>
+
+        <div class="card-body">
+            @if (Model.product != null)
+            {
+                <form asp-controller="Product"
+                      asp-action="EditProduct"
+                      method="post">
+
+                    <!-- Hidden Product Id -->
+                    <input type="hidden"
+                           name="productId"
+                           value="@Model.product.productId" />
+
+                    <!-- Product Name -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Product Name</label>
+                        <input type="text"
+                               name="productName"
+                               value="@Model.product.productName"
+                               class="form-control"
+                               required />
+                    </div>
+
+                    <!-- Category Dropdown -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Category</label>
+                        <select name="categoryId"
+                                class="form-select"
+                                required>
+
+                            @foreach (var category in Model.categories)
+                            {
+                                <option value="@category.CategoryId"
+                                        selected="@(Model.product.category?.CategoryId == category.CategoryId)">
+                                    @category.CategoryName
+                                </option>
+                            }
+                        </select>
+                    </div>
+
+                    <!-- Price -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Price</label>
+                        <input type="number"
+                               name="prodcutPrice"
+                               value="@Model.product.prodcutPrice"
+                               class="form-control"
+                               required />
+                    </div>
+
+                    <!-- Quantity -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Quantity</label>
+                        <input type="number"
+                               name="productQuantity"
+                               value="@Model.product.productQuantity"
+                               class="form-control"
+                               required />
+                    </div>
+
+                    <!-- Description -->
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Description</label>
+                        <textarea name="productDescription"
+                              class="form-control"
+                              rows="3"
+                              required>@Model.product.productDescription</textarea>
+                    </div>
+
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-between mt-4">
+                        <a asp-action="Index"
+                           class="btn btn-secondary">
+                            Cancel
+                        </a>
+
+                        <button type="submit"
+                                class="btn btn-warning">
+                            Update Product
+                        </button>
+                    </div>
+
+                </form>
+            }
+        </div>
+    </div>
+</div>

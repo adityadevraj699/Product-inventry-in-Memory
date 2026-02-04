@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|c:\\users\\dell\\source\\repos\\marketcrudproduct\\marketcrudproduct\\views\\categories\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B66F9B9-46CB-CA08-9A1A-7E99901CF2F7}|MarketCRUDProduct\\MarketCRUDProduct.csproj|solutionrelative:marketcrudproduct\\views\\categories\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "MarketCRUDProduct\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAowNEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T18:35:49.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MarketCRUDProduct\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T18:24:35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Categories\\Detail.cshtml",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Views\\Categories\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Views\\Categories\\Detail.cshtml",
+              "RelativeToolTip": "MarketCRUDProduct\\Views\\Categories\\Detail.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowD0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T18:22:36.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "MarketCRUDProduct\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:21:34.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "MarketCRUDProduct\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:15:53.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "MarketCRUDProduct\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\MarketCRUDProduct\\MarketCRUDProduct\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "MarketCRUDProduct\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:15:22.569Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

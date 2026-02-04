@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- ================= FULL WIDTH HERO SECTION ================= -->
+<section class="hero-section text-white d-flex align-items-center">
+    <div class="container text-center">
+        <h1 class="display-3 fw-bold mb-3">
+            Welcome to <span class="text-danger">ADITYA</span>
+        </h1>
+
+        <p class="lead mb-4">
+            A Smart & Efficient
+            <span class="text-info fw-semibold">
+                Product Management System
+            </span>
+        </p>
+
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a asp-controller="Categories"
+               asp-action="Index"
+               class="btn btn-danger btn-lg px-5">
+                Manage Categories
+            </a>
+
+            <a href="#features"
+               class="btn btn-outline-light btn-lg px-5">
+                System Guide
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FEATURES SECTION ================= -->
+<section id="features" class="container py-5">
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">System Features</h2>
+        <p class="text-muted">Everything you need to manage your market efficiently</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Categories -->
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                <div class="fs-1 text-danger mb-3">
+                    <i class="bi bi-collection"></i>
+                </div>
+                <h4 class="fw-bold">Categories</h4>
+                <p class="text-muted">
+                    Easily organize products by group.
+                    Add, edit, or delete categories in seconds.
+                </p>
+                <a asp-controller="Categories"
+                   asp-action="Index"
+                   class="btn btn-dark btn-sm">
+                    Open Management
+                </a>
+            </div>
+        </div>
+
+        <!-- Products -->
+        <div class="col-md-4">
+            <a asp-controller="Product"
+               asp-action="Index"
+               class="text-decoration-none text-dark">
+
+                <div class="card h-100 border-0 shadow-sm text-center p-4
+                    card-hover">
+
+                    <div class="fs-1 text-primary mb-3">
+                        <i class="bi bi-box-seam"></i>
+                    </div>
+
+                    <h4 class="fw-bold">Products</h4>
+
+                    <p class="text-muted">
+                        Manage inventory with detailed product tracking
+                        and real-time updates.
+                    </p>
+
+                    <span class="btn btn-outline-dark btn-sm mt-2">
+                        Manage Products
+                    </span>
+                </div>
+            </a>
+        </div>
+
+
+        <!-- Performance -->
+        <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm text-center p-4">
+                <div class="fs-1 text-success mb-3">
+                    <i class="bi bi-speedometer2"></i>
+                </div>
+                <h4 class="fw-bold">Performance</h4>
+                <p class="text-muted">
+                    View quick analytics and system insights
+                    through a simple dashboard.
+                </p>
+                <button class="btn btn-dark btn-sm">
+                    View Demo
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= HERO SECTION STYLES ================= -->
+<style>
+    .hero-section {
+        min-height:45vh;
+        max-height: 70vh;
+        width: 100%;
+        background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7) ), radial-gradient(circle at top, #dc3545, #000);
+        background-size: cover;
+        background-position: center;
+    }
+</style>

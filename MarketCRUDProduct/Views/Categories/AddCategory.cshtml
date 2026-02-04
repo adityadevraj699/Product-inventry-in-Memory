@@ -1,0 +1,57 @@
+﻿<div class="container mt-5" style="max-width:600px;">
+
+    <div class="card shadow border-0">
+        <div class="card-header bg-dark text-white text-center">
+            <h4 class="mb-0">Add New Category</h4>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-controller="Categories"
+                  asp-action="AddCategory"
+                  method="post">
+
+                <!-- Category Name -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">
+                        Category Name
+                    </label>
+                    <input type="text"
+                           name="CategoryName"
+                           class="form-control"
+                           placeholder="Enter category name"
+                           required />
+                </div>
+
+                <!-- Category Description -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">
+                        Category Description
+                    </label>
+                    <textarea name="CategoryDescription"
+                              class="form-control"
+                              rows="3"
+                              placeholder="Enter category description"
+                              required></textarea>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-controller="Categories"
+                       asp-action="Index"
+                       class="btn btn-secondary">
+                        Back
+                    </a>
+
+                    <button type="submit"
+                            class="btn btn-success">
+                        Save Category
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>

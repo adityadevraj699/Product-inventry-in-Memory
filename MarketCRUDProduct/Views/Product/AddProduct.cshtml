@@ -1,0 +1,92 @@
+﻿@model List<MarketCRUDProduct.Models.Category>
+
+<div class="container mt-5" style="max-width:650px;">
+
+    <div class="card shadow border-0">
+        <div class="card-header bg-dark text-white text-center">
+            <h4 class="mb-0">Add New Product</h4>
+        </div>
+
+        <div class="card-body">
+
+            <form asp-controller="Product"
+                  asp-action="AddProduct"
+                  method="post">
+
+                <!-- Product Name -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Product Name</label>
+                    <input type="text"
+                           name="productName"
+                           class="form-control"
+                           placeholder="Enter product name"
+                           required />
+                </div>
+
+                <!-- Category Dropdown -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Category</label>
+                    <select name="categoryId"
+                            class="form-select"
+                            required>
+                        <option value="">-- Select Category --</option>
+
+                        @foreach (var category in Model)
+                        {
+                            <option value="@category.CategoryId">
+                                @category.CategoryName
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <!-- Price -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Price</label>
+                    <input type="number"
+                           name="prodcutPrice"
+                           class="form-control"
+                           placeholder="Enter price"
+                           required />
+                </div>
+
+                <!-- Quantity -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Quantity</label>
+                    <input type="number"
+                           name="productQuantity"
+                           class="form-control"
+                           placeholder="Enter quantity"
+                           required />
+                </div>
+
+                <!-- Description -->
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Description</label>
+                    <textarea name="productDescription"
+                              class="form-control"
+                              rows="3"
+                              placeholder="Enter product description"
+                              required></textarea>
+                </div>
+
+                <!-- Buttons -->
+                <div class="d-flex justify-content-between mt-4">
+                    <a asp-controller="Product"
+                       asp-action="Index"
+                       class="btn btn-secondary">
+                        Back
+                    </a>
+
+                    <button type="submit"
+                            class="btn btn-success">
+                        Save Product
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
